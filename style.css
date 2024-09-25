@@ -1,0 +1,107 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+/* Custom CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #ecf0f1;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #2c3e50;
+    color: #f0e68c;
+}
+
+.header-left-side h1 {
+    font-size: 3rem;
+    color: #b4c6cb;
+}
+
+.header-left-side h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.header-left-side p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Image on the right side */
+.header-right-side img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Skills List */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Contact and Resume Section */
+#contact p, #resume p {
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-right-side img {
+        width: 80%;
+    }
+}
